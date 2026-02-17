@@ -130,7 +130,7 @@ public class PracticeProblemTest {
       PracticeProblem.q4();
 
       // assertion
-      assertEquals("Input a first name: Input a last name: Input an age: Mr, Kalisz - 99\n", bos.toString());
+      assertEquals("Input a first name: Input a last name: Input an age: Mr., Kalisz - 99\n", bos.toString());
    }
 
    @Test
