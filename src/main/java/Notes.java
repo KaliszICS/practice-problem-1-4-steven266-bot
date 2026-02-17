@@ -31,12 +31,14 @@ class Notes {
 		//Before very input line, you should have a prompt
 		System.out.print("Input a number: ");
 		num = input.nextInt();
+		input.nextLine(); //clear the scanner of \n
 		System.out.println(num);
 
 		double num2;
 		//Before very input line, you should have a prompt
 		System.out.print("Input a fractional number: ");
 		num2 = input.nextDouble();
+		input.nextLine(); //clear the scanner
 		num2 = num2 + 5;
 		System.out.println(num2);
 
@@ -44,8 +46,8 @@ class Notes {
 
 
 		//When using nextLine to get a string, IF we have used nextInt or nextDouble before nextLine again, we need to clear the scanner
-		input.nextLine(); //clears the scanner
 		
+
 		String word;
 		System.out.print("Input a word: ");
 		word = input.nextLine();
